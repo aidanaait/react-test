@@ -15,7 +15,7 @@ function App() {
             onRemoveColor={(id) => {
                 const newColors = colors.filter((color) => color.id != id);
                 setColors(newColors);
-                //almas
+                //almas 4
             }}
             onRateStars={(rating, id) => {
                 const newColors = colors.map((color) =>
