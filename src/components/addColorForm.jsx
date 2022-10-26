@@ -14,7 +14,7 @@ const submitForm = (event)=>{
         <input
         type="text"
         value={title}
-        placeholder ="Add a new Title here.."
+        placeholder ="Add a new Title .."
         onChange = {(event)=>setTitle(event.target.value)}
         />
         <input
